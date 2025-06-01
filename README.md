@@ -10,7 +10,7 @@ Esta aplicación web analiza más de 200 tweets reales sobre aerolíneas, clasif
 
 Una vez desplegada en Streamlit Cloud, puedes acceder a la app aquí:
 
-🔗 [Ver app en Streamlit](https://TU_USUARIO.streamlit.app)
+🔗 [Ver app en Streamlit](https://sentiment-analysis-webapp-h7awsxomrfsmgepq853xxr.streamlit.app/#estadisticas-generales)
 
 ---
 
@@ -25,21 +25,9 @@ Una vez desplegada en Streamlit Cloud, puedes acceder a la app aquí:
 
 ---
 
-## 🧰 Requisitos para Ejecutar Localmente
-
-```bash
-git clone https://github.com/TU_USUARIO/sentiment-analysis-webapp.git
-cd sentiment-analysis-webapp
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
-
 ## 🧪 Técnicas y Herramientas Usadas
 
 - **Preprocesamiento**: limpieza de texto, eliminación de `stopwords`, lematización.
-- **Modelo de sentimiento**: [`VADER`](https://github.com/cjhutto/vaderSentiment), ideal para texto informal como tweets.
 - **Visualización**: `matplotlib`, `Streamlit`, `wordcloud`.
 - **Plataforma**: Desarrollado con `Python` y desplegado con `Streamlit Cloud`.
 
@@ -64,6 +52,4 @@ streamlit run app.py
 
 Este proyecto fue desarrollado como parte de una tarea académica sobre análisis de sentimientos y visualización de datos.
 
----
 
-© 2025 - Análisis de Sentimientos con Streamlit
