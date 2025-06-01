@@ -50,6 +50,6 @@ Una vez desplegada en Streamlit Cloud, puedes acceder a la app aquí:
 
 ## 📌 Créditos
 
-Este proyecto fue desarrollado como parte de una tarea académica sobre análisis de sentimientos y visualización de datos.
+Este proyecto fue desarrollado como parte del proyecto final de la materia de "Introduccion a la ciendia de datos" en la Universidad Tecnológica de Bolivar, donde el objetivo general era sobre el análisis de sentimientos y visualización de datos.
 
 
