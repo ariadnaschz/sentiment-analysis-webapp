@@ -24,9 +24,9 @@ st.subheader("📈 Estadísticas Generales")
 summary = data["summary"]
 col1, col2, col3 = st.columns(3)
 
-col1.metric("Positivos", summary["counts"]["positive"], f'{summary["percentages"]["positive"]:.2f}%')
-col2.metric("Negativos", summary["counts"]["negative"], f'{summary["percentages"]["negative"]:.2f}%')
-col3.metric("Neutrales", summary["counts"]["neutral"], f'{summary["percentages"]["neutral"]:.2f}%')
+col1.metric("Positivos", summary["count"]["positive"], f'{summary["percentage"]["positive"]:.2f}%')
+col2.metric("Negativos", summary["count"]["negative"], f'{summary["percentage"]["negative"]:.2f}%')
+col3.metric("Neutrales", summary["count"]["neutral"], f'{summary["percentage"]["neutral"]:.2f}%')
 
 # ---------- Imagen: Gráfico de barras ----------
 st.subheader("📊 Porcentaje de Comentarios por Sentimiento")
