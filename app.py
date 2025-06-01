@@ -30,7 +30,7 @@ col3.metric("Neutrales", summary["count"]["neutral"], f'{summary["percentage"]["
 
 # ---------- Imagen: Gráfico de barras ----------
 st.subheader("📊 Porcentaje de Comentarios por Sentimiento")
-st.image("grafico_porcentaje_sentimiento.png", caption="Distribución porcentual", use_column_width=True)
+st.image("grafico_porcentaje_sentimiento.png", caption="Distribución porcentual", use_container_width=True)
 
 # ---------- Filtros ----------
 st.subheader("🧰 Filtros Interactivos")
@@ -56,7 +56,7 @@ st.dataframe(filtered[["tweet_created", "clean_text", "sentiment"]])
 
 # ---------- Imagen: Serie temporal ----------
 st.subheader("📅 Evolución Temporal de Sentimientos")
-st.image("serie_temporal_sentimientos.png", use_column_width=True)
+st.image("serie_temporal_sentimientos.png", use_container_width=True)
 
 # ---------- Imágenes: Nubes de palabras ----------
 st.subheader("☁️ Nube de Palabras por Sentimiento")
